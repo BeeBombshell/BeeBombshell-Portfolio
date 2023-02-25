@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +13,20 @@ export default function Home() {
         <link rel="icon" href="/beebombshell.png" type='image/x-icon' />
       </Head>
 
-      <h1 className='p-10 text-red-500'>Hey There! 👋</h1>
+      {/* Header */}
+      <Header />
+
+      {/* Hero */}
+
+      {/* About Me */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Projects */}
+
+      {/* Contact Me */}
     </>
   )
 }

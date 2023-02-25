@@ -1,0 +1,51 @@
+import React from 'react'
+import { SocialIcon } from 'react-social-icons'
+
+type Props = {}
+
+export default function Header({}: Props) {
+  return (
+    <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto'>
+        <div className='flex flex-row items-center'>
+            {/* Social icons */}
+            <SocialIcon 
+                url="https://www.linkedin.com/in/beebombshell/" 
+                fgColor='gray' 
+                bgColor='transparent' 
+            />
+            <SocialIcon 
+                url="https://www.twitter.com/bee_bombshell/"
+                fgColor='gray' 
+                bgColor='transparent' 
+            />
+            <SocialIcon 
+                url="https://github.com/BeeBombshell/" 
+                fgColor='gray' 
+                bgColor='transparent' 
+            />
+            <SocialIcon 
+                url="https://in.pinterest.com/Bee_Bombshell/" 
+                fgColor='gray' 
+                bgColor='transparent' 
+            />
+            <SocialIcon 
+            url="https://medium.com/@BeeBombshell" 
+            fgColor='gray' 
+            bgColor='transparent' 
+            />
+        </div>
+
+        <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
+            <SocialIcon
+                className='cursor-pointer'
+                network='email'
+                fgColor='gray'
+                bgColor='transparent'
+            />
+            <p className='uppercase hidden md:inline-flex text-sm text-grey-400'>
+                Get In Touch
+            </p>
+        </div>
+    </header>
+  )
+}
