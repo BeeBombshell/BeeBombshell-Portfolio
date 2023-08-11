@@ -35,11 +35,11 @@ export default function About({}: Props) {
 
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold'>
-          Here's a <span className='underline decoration-purple-500'>little</span> background
+          Here&apos;s a <span className='underline decoration-purple-500'>little</span> background
         </h4>
         <p className='text-base'>
-        Hey there! 👋 I'm Bhavya Verma, a Software Engineer driving innovation at Rowy, a commercial open-source startup. 
-        With a strong passion for open source, I've contributed to diverse organizations, mentored budding talents at the Grace Hopper Celebration Open Source Day, and personally guided contributors through open source programs. 💜 I'm an advocate for diversity, writing for AnitaBorg and Women Who Code. Sharing my journey and insights on Twitter and personal blog. Let's craft a more inclusive tech future together! 🚀
+        Hey there! 👋 I&apos;m Bhavya Verma, a Software Engineer driving innovation at Rowy, a commercial open-source startup. 
+        With a strong passion for open source, I&apos;ve contributed to diverse organizations, mentored budding talents at the Grace Hopper Celebration Open Source Day, and personally guided contributors through open source programs. 💜 I&apos;m an advocate for diversity, writing for AnitaBorg and Women Who Code. Sharing my journey and insights on Twitter and personal blog. Let&apos;s craft a more inclusive tech future together! 🚀
         </p>
       </div>
     </motion.div>
