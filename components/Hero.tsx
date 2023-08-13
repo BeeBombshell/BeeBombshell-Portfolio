@@ -23,8 +23,8 @@ export default function Hero({}: Props) {
         <div className='h-screen flex flex-col space-y-0 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
             <Image 
-                className='relative rounded-full h-32 w-32 mx-auto'
-                src='/../public/beebombshell.png'
+                className='relative rounded-full h-40 w-40 mx-auto'
+                src='/beebombshell.png'
                 alt='Bee'
                 width={300}
                 height={300}

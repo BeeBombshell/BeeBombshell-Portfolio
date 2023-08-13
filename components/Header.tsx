@@ -29,7 +29,7 @@ export default function Header({}: Props) {
             <SocialIcon 
                 url="https://www.linkedin.com/in/beebombshell/" 
                 fgColor='gray' 
-                bgColor='transparent' 
+                bgColor='transparent'
             />
             <SocialIcon 
                 url="https://www.twitter.com/bee_bombshell/"
