@@ -41,6 +41,20 @@ export default function Home() {
       {/* Projects */}
 
       {/* Contact Me */}
+
+      <Head>
+        <title>BeeBombshell&apos;s Portfolio 💜</title>
+        <meta name="description" content="Welcome to my portfolio website" key="desc" />
+        <meta property="og:title" content="BeeBombshell&apos;s Portfolio 💜" />
+        <meta
+          property="og:description"
+          content="Welcome to BeeBombshell&apos;s portfolio website"
+        />
+        <meta
+          property="og:image"
+          content="/banner.svg"
+        />
+      </Head>
     </ div>
   )
 }
