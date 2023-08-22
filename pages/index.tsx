@@ -52,7 +52,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="/banner.svg"
+          content="../public/banner.png"
         />
       </Head>
     </ div>
